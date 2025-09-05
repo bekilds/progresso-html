@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.Retangulo {
+    width: 400px;
+    height: 200px;
+    background-color: #ffc0cb;
+    margin: 400%;
+}
+
+.semaforo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+    gap: 30px;
+    align-items: center;
+    background-color: rgb(51, 49, 49);
+    padding: 20px;
+    height: 600px;
+    width: 300px;
+    border-radius: 25px;
+    margin: 0 auto 30px;
+
+}
+
+
+
+.circulo {
+    width: 150px;
+    height: 150px;
+    border-radius:100%;
+
+}
+
+.vermelho {
+    background-color: #ff002b;
+    box-shadow: 0 0 20px #f00;
+}
+
+.amarelo {
+    background-color: rgb(248, 247, 173);
+    box-shadow: 0 0 20px #eeff01;
+}
+
+.verde {
+    background-color: #aff390;
+    box-shadow: 0 0 20px #4ef500;
+}

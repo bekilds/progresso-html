@@ -24,6 +24,23 @@ h2 {
     color: rgb(248, 178, 217);
 }
 
+navegacao {
+text-decoration: none;
+    color: rgb(0, 150, 150);
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 20px;
+    border: 2px solid rgb(0, 150, 150);
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+navegacao:hover{
+    background-color: rgb(255, 127, 180);
+    color:rgb(223, 15, 94)
+}
+
 .flex-container {
     width: 90%;
     height: 200px;
